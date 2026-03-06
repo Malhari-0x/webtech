@@ -1,0 +1,86 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#main11 {
+    /* border: 3px solid greenyellow; */
+    min-height: 100vh;
+    width: 80%;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rio {
+    /* border: 3px solid black; */
+    height: 600px;
+    width: 700px;
+    background-color: bisque;
+    /* display: ; */
+}
+
+.nav {
+    /* border: 3px solid black; */
+    height: 200px;
+    width: 700px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    justify-items: auto;
+}
+
+.nio {
+    /* border: 2px solid purple; */
+    height: 100px;
+    width: 100px;
+    /* justify-content: center; */
+    margin-top: 30px;
+}
+
+#nio1 {
+    width: 350px;
+    display: flex;
+}
+
+#nio2 {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mack {
+    /* border: 2px solid black; */
+    width: 50px;
+    height: 70px;
+}
+
+.mack:hover {
+    color: blue;
+}
+
+.nav2 {
+    /* border: 3px solid black; */
+    height: 395px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jio {
+    /* border: 2px solid red; */
+    height: 390px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+#main12 {
+    /* border: 3px solid blue; */
+    height: 100vh;
+    width: 20%;
+    background-color: black;
+}

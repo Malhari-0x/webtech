@@ -1,0 +1,42 @@
+/* .rio {
+    background-color: black;
+}
+
+.nio {
+    background-color: chartreuse;
+}
+
+.jio {
+    background-color: darkorange;
+} */
+
+
+/* div p {
+    background-color: greenyellow;
+}
+
+
+div>p {
+    background-color: aquamarine;
+}
+
+
+div+h1 {
+    background-color: chocolate;
+}
+
+div~p {
+    background-color: blanchedalmond;
+} */
+
+div {
+    background-image: url(./photos/Anime1.jpg);
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+}
+
+div:hover {
+    background-image: url(./photos/Anime2.jpg);
+    background-size: cover;
+}

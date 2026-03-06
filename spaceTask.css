@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./photos/mainspace.avif);
+}
+
+.sun {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orange;
+    box-shadow: 0px 0px 50px wheat;
+}
+
+.mercury {
+    border: 2px solid white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 3s;
+}
+
+.rotate1 {
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    background-color: red;
+}
+
+.mercury:hover {
+    transform: rotate(360deg);
+}
+
+.venus {
+    border: 2px solid white;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 3s;
+}
+
+.rotate2 {
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    background-color: yellow;
+}
+
+.venus:hover {
+    transform: rotate(360deg);
+}
+
+.earth {
+    border: 2px solid white;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 3s;
+}
+
+.rotate3 {
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    background-color: aquamarine;
+}
+
+.earth:hover {
+    transform: rotate(360deg);
+}

@@ -1,0 +1,54 @@
+.main {
+    height: 100vh;
+    background-image: linear-gradient(to top left, black 50%, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2 {
+    /* border: 2px solid white; */
+    height: 500px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid {
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+
+.grid:hover {
+    cursor: pointer;
+    transition: 1s ease;
+    transform: rotate(-360deg);
+    border-radius: 50%;
+}
+
+#grid1:hover,
+#grid3:hover,
+#grid5:hover,
+#grid7:hover,
+#grid9:hover,
+#grid11:hover,
+#grid13:hover,
+#grid15:hover,
+#grid17:hover,
+#grid19:hover,
+#grid21:hover {
+    background-image: linear-gradient(to top left, yellow 20%, greenyellow);
+}
+
+#grid2:hover,
+#grid4:hover,
+#grid6:hover,
+#grid8:hover,
+#grid10:hover,
+#grid12:hover,
+#grid14:hover,
+#grid16:hover,
+#grid18:hover,
+#grid20:hover {
+    background-image: linear-gradient(to top left, red 20%, purple);
+}

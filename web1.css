@@ -1,0 +1,24 @@
+* {
+    /* background-image: url(./photos/lord_krishna.jpeg); */
+    background-color: antiquewhite;
+}
+
+#max {
+    background-color: aqua;
+}
+
+.rio {
+    background-color: burlywood;
+}
+
+div {
+    background-image: url(./photos/lord_krishna.jpeg);
+    /* background-color: chartreuse; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#max,
+.rio,
+div {
+    font-style: italic;
+}

@@ -1,0 +1,416 @@
+section {
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+.div1 {
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div11 {
+    /* border: 1px solid green; */
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div101 {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    /* border: 1px solid blue; */
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo:hover {
+    background-color: yellow;
+}
+
+.snaplogo {
+    height: 40px;
+    width: 40px;
+}
+
+#snaplogo:hover {
+    color: white;
+}
+
+#div102 {
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    /* border: 1px solid blueviolet; */
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbtn {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(193, 189, 189);
+    cursor: pointer;
+}
+
+#div103 {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div12 {
+    /* border: 1px solid rgb(71, 52, 2); */
+    height: 100px;
+    width: 80px;
+}
+
+#div121,
+#div122,
+#div123,
+#div124 {
+    display: flex;
+    align-items: last baseline;
+    display: block;
+    border-radius: 15px;
+}
+
+#div121:hover,
+#div122:hover,
+#div123:hover,
+#div124:hover,
+.option:hover {
+    background-color: rgb(193, 189, 189);
+    cursor: pointer;
+}
+
+.story {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.option {
+    height: 40px;
+    width: 40px;
+}
+
+.subbtn {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+/* #spot {
+    font-size: 50px;
+} */
+
+.name1 {
+    /* border: 1px solid blue; */
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div104 {
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div13 {
+    /* border: 1px solid blue; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div131 {
+    width: 40px;
+}
+
+#div132 {
+    width: 130px;
+}
+
+#div133 {
+    width: 130px;
+}
+
+.main2 {
+    /* border: 1px solid red; */
+    height: 630px;
+    width: 100%;
+    display: flex;
+}
+
+.div2 {
+    /* border: 1px solid greenyellow; */
+    height: 630px;
+    width: 40%;
+}
+
+#div002 {
+    /* border: 2px solid red; */
+    margin-left: 40%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snapimg {
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 98%;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snap12 {
+    /* image-resolution: 20px; */
+    height: 300px;
+    width: 100%;
+    margin-top: 330px;
+}
+
+#div02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.div21 {
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 400px;
+    /* margin-top: 100px; */
+    /* margin-left: 100px; */
+}
+
+.sub {
+    /* border: 1px solid black; */
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+#sub2,
+#sub3,
+#sub7,
+#sub9 {
+    color: rgb(75, 74, 74);
+}
+
+.textbox {
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+}
+
+#sub5,
+#sub6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instead {
+    text-decoration: none;
+    color: #0E86E1;
+}
+
+.login {
+    background-color: #0E86E1;
+    color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.micro {
+    height: 40px;
+}
+
+.here {
+    text-decoration: none;
+}
+
+.div3 {
+    /* border: 1px solid purple; */
+}
+
+#div31 {
+    height: 630px;
+    width: 100%;
+    margin-left: 100%;
+}
+
+#div32 {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.div5 {
+    /* border: 1px solid blue; */
+    margin-left: 40%;
+}
+
+#div51 {
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div6 {
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 190px;
+}
+
+#div52 {
+    height: 50px;
+    width: 60%;
+    display: flex;
+    background-color: rgb(44, 2, 2);
+    color: white;
+}
+
+.div6 {
+    display: block;
+    justify-content: center;
+}
+
+#div81 {
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 180px;
+}
+
+#div82 {
+    /* border: 1px solid red; */
+    height: 90px;
+    width: 180px;
+}
+
+#div61 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.div7 {
+    /* border: 1px solid black; */
+}
+
+#div07 {
+    height: 150px;
+}
+
+#div71 {
+    height: 80px;
+    margin-top: 60px;
+}
+
+.div9 {
+    /* border: 1px solid black; */
+    height: 40px;
+}
+
+.select {
+    height: 30px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.div10 {
+    /* border: 1px solid green; */
+}
+
+#div101 {
+    height: 40px;
+    width: 200px;
+}
+
+#div102 {
+    height: 40px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.divl {
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.divl3 {
+    /* border: 1px solid red; */
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+#divl31 {
+    width: 60px;
+}
+
+#divl32 {
+    width: 400px;
+}
+
+#divl33 {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.safe {
+    color: yellow;
+}
+
+.dad {
+    height: 40px;
+    width: 40px;
+}

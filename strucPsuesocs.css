@@ -1,0 +1,19 @@
+p:first-child {
+    background-color: greenyellow;
+}
+
+p:last-child {
+    background-color: aqua;
+}
+
+p:nth-child(2) {
+    background-color: blueviolet;
+}
+
+h1:first-of-type {
+    background-color: chartreuse;
+}
+
+h1:last-of-type {
+    background-color: darkgrey;
+}

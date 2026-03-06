@@ -1,0 +1,46 @@
+nav {
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1 {
+    border: 2px solid red;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#div22 {
+    border: 2px solid black;
+}
+
+#div21 {
+    height: 600px;
+    width: 600px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.div02 {
+    border: 2px solid red;
+    height: 280px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+#div22 {
+    height: 600px;
+    width: 500px;
+}

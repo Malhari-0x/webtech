@@ -1,0 +1,37 @@
+/* div {
+    border: 2px solid black;
+    height: 80vh;
+    width: 80vh;
+    background-image: linear-gradient(to left top, violet, indigo, blue, green, yellow, orange, red);
+    background-image: radial-gradient(circle, violet, indigo 10%, blue 10%, green, red);
+    background-image: repeating-radial-gradient(circle, indigo 5%, blue, green, yellow 20%);
+    background-image: conic-gradient(violet, indigo, blue, green, yellow, orange, red, transparent 320deg);
+} */
+
+body {
+    background-image: linear-gradient(to top left, white, black 50%);
+}
+
+.nio {
+    padding-top: 60px;
+    text-align: center;
+    height: 90vh;
+    width: 500px;
+    border-top-left-radius: 380px;
+    border-bottom-right-radius: 380px;
+    color: white;
+    letter-spacing: 10px;
+    background-image: linear-gradient( to top left, black 20%, white);
+}
+
+.jio {
+    color: black;
+    letter-spacing: 10px;
+}
+
+.rio {
+    border-bottom: 10px solid aqua;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}

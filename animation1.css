@@ -1,0 +1,83 @@
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    top: 30%;
+    left: 30%;
+}
+
+.div1::before {
+    content: "";
+    background-image: conic-gradient(yellow 20deg, transparent 80deg);
+    position: absolute;
+    height: 180%;
+    width: 180%;
+    animation: rio 2s linear infinite;
+}
+
+.div1::after {
+    content: "";
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+
+@keyframes rio {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.div2 {
+    /* border: 1px solid blue; */
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.div2::before {
+    content: "";
+    background-image: conic-gradient(yellow 20deg, transparent 80deg);
+    position: absolute;
+    height: 290%;
+    width: 290%;
+    animation: nio 2s linear infinite;
+}
+
+.div2::after {
+    content: "";
+    height: 490px;
+    width: 490px;
+    border-radius: 5px;
+    background-color: black;
+    position: relative;
+}
+
+@keyframes nio {
+    100% {
+        transform: rotate(360deg);
+    }
+}

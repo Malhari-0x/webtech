@@ -1,0 +1,27 @@
+p::first-line {
+    background-color: greenyellow;
+}
+
+p::first-letter {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p::before {
+    content: url("./photos/Cute_Astronaut_Sk.png");
+    /* width: 80px; */
+    /* height: 50px; */
+}
+
+p::after {
+    content: url("./photos/Outer_Space_by_center.png");
+    width: 80px;
+}
+
+li::marker {
+    color: brown;
+}
+
+h1::selection {
+    background-color: red;
+}

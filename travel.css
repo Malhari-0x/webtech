@@ -1,0 +1,384 @@
+body {
+    background-image: linear-gradient(to left, black, white 80%);
+}
+
+body:hover {
+    background-image: linear-gradient(to right, #DD1920, black 50%);
+}
+
+
+/* * {
+    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Imaki', sans-serif;
+} */
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main {
+    /* border: 1px solid black; */
+    height: 90vh;
+    width: 90%;
+    border-radius: 15px;
+    background-color: beige;
+    box-shadow: 0px 0px 10px black;
+}
+
+.nav {
+    /* border: 1px solid green; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom: 2px solid black;
+}
+
+.nsub {
+    /* border: 1px solid red; */
+    height: 90px;
+    /* width: 33%; */
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#nsub1,
+#nsub3 {
+    width: 30%;
+}
+
+#nsub2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soul {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 200px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.soult {
+    color: #DD1920;
+    font-family: 'Imaki', sans-serif;
+}
+
+.first {
+    font-family: 'Imaki', sans-serif;
+}
+
+.desti {
+    /* border: 1px solid black; */
+    height: 50px;
+    /* width: 20%; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#disti1 {
+    width: 22%;
+}
+
+#desti3 {
+    width: 10%;
+}
+
+#desti4,
+#desti5 {
+    width: 17%;
+}
+
+.desti:hover {
+    border-bottom: 5px solid #DD1920;
+}
+
+.btn {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100px;
+    display: flex;
+}
+
+#nsub3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.signup {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+
+.signup:hover {
+    background-color: darkgray;
+}
+
+.signin {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #DD1920;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+
+.signin:hover {
+    background-color: orange;
+}
+
+.nav2 {
+    /* border: 1px solid blueviolet; */
+    height: 550px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.mtwo {
+    /* border: 1px solid greenyellow; */
+    height: 500px;
+    width: 50%;
+}
+
+.four {
+    /* border: 1px solid red; */
+}
+
+#four1 {
+    height: 250px;
+    width: 70%;
+    margin-left: 40px;
+    word-spacing: 10px;
+    font-family: 'Imaki', sans-serif;
+}
+
+#four2 {
+    width: 70%;
+    /* height: 150px; */
+    margin-left: 40px;
+}
+
+p {
+    font-family: 'Imaki', sans-serif;
+    font-size: 13px;
+}
+
+#four4 {
+    height: 50px;
+    width: 70%;
+    margin-left: 40px;
+}
+
+.shopping {
+    height: 490px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#four3 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#three1 {
+    display: block;
+}
+
+.dnation {
+    /* border: 1px solid black; */
+    height: 40%;
+    width: 80%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#dnation2 {
+    word-spacing: 6px;
+}
+
+#three2 {
+    display: block;
+}
+
+.date {
+    /* border: 1px solid black; */
+    height: 40%;
+    width: 80%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.three {
+    /* border: 1px solid black; */
+    height: 90px;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn3 {
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #DD1920;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+
+.btn3:hover {
+    background-color: orange;
+    width: 80%;
+    height: 50px;
+}
+
+#mtwo2 {
+    border-radius: 50%;
+    /* background-color: orange; */
+    background-image: linear-gradient(goldenrod 30%, white);
+    /* background-image: url(./photos/transition.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 0px 15px black;
+    position: relative;
+    width: 40%;
+    margin-bottom: -20px;
+    /* animation: trans 5s linear infinite; */
+}
+
+
+/* @keyframes trans {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */
+
+#mtwo2:hover {
+    background-image: linear-gradient(#DD1920, white 50%);
+}
+
+.hotel {
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    bottom: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+}
+
+.hotel:hover {
+    width: 200px;
+    height: 45px;
+    background-image: linear-gradient(to left, orange, white 50%);
+}
+
+.local {
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+}
+
+.local:hover {
+    width: 160px;
+    height: 45px;
+    background-image: linear-gradient(to left, orange, white 50%);
+}
+
+.flight {
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    bottom: 80%;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+}
+
+.flight:hover {
+    width: 180px;
+    height: 45px;
+    background-image: linear-gradient(to left, orange, white 50%);
+}
+
+.tourg {
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    bottom: 20%;
+    right: -7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+}
+
+.tourg:hover {
+    width: 180px;
+    height: 45px;
+    background-image: linear-gradient(to left, orange, white 50%);
+}
+
+#icon {
+    color: #DD1920;
+    font-size: 20px;
+}
+
+#icon1 {
+    color: #DD1920;
+}
